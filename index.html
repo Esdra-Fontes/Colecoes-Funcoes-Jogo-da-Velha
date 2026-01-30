@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha #</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body onload="iniciar()">
+    <main>
+        <header>
+            <h1 class="texto">Jogo da Velha #</h1>
+        </header>
+
+        <div id="board"></div>
+
+        <div class="container">
+            <h2 id="aviso">Vez do jogador: 1</h2>
+        </div>
+
+        <div class="inputs">
+            <label>
+                Linha:
+                <input type="number" min="1" max="3" id="linha">
+            </label>
+
+            <label>
+                Coluna:
+                <input type="number" min="1" max="3" id="coluna">
+            </label>
+        </div>
+
+        <div class="botoes">
+            <button onclick="jogar()">Marcar( )</button>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p class="direitos">Made By Esdra Fontes</p>
+    </footer>
+</body>
+</html>
