@@ -11,7 +11,6 @@ O objetivo deste projeto é demonstrar a estrutura básica de um site e a organi
 - HTML5 – Estrutura das páginas
 - CSS3 – Estilização e layout
 - JavaScript – Interatividade e comportamento dinâmico
-- Ambiente simples voltado para aprendizado
 
 📁 Estrutura do Projeto:
 ---
